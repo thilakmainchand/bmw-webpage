@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#s1{
+    background-image:  url(./1125033.jpg); 
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+#s2{
+    
+    background-image: url(./speed.jpg);
+    background-size: cover;
+    filter: brightness(50%);
+    
+}
+#s2 h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: red;
+    font-weight: 1000;
+}
+.t1,.t2{
+    
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.t3{
+    text-shadow: 2%;
+}
+#navbar{
+    
+    position: absolute;
+    top: 0;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul {
+   
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px;
+}
+ul{
+   
+    position: absolute;
+    left: 5%;
+}
+li{
+
+    margin: 2px 80px;
+}
+li a {
+    font-size: 25px;
+    text-decoration: underline black;
+    color: black;
+}
+li a:hover{
+    color: red;
+}
+#contentSection{
+    height:400px;
+    width: 750px;
+    position: absolute;
+    left: 5px;
+    top: calc(50% - 300px);
+}
+#contentSection h2{
+    font-family: sans-serif;
+    font-size: 150px;
+    color: red;
+    font-weight: 800;
+}
+#contentSection button {
+    height: 70px;
+    width: 200px;
+    border: none;
+    background: #eaf5ea;
+    cursor: pointer;
+    font-weight: 900;
+}
+#contentSection button:hover{
+    animation: animate is linear;
+}
+#s3{
+    background-image: url(./cae.jpg);
+    background-size: cover;
+    filter: brightness(50%);
+}
+#para button {
+    float: right;
+    height: 70px;
+    width: 200px;
+    border: none;
+    background: #fa5b5b;
+    cursor: pointer;
+    font-weight: 900;
+
+    
+}
+#para p {
+    float: left;
+    
+}
+
+
+
